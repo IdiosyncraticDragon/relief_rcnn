@@ -37,3 +37,13 @@ VOCcode  annotations_cache  create_segmentations_from_detections.m  example_clas
 3. Link the file `./caffe-fast-rcnn/models/bvlc_reference_caffenet/deploy1.prototxt` to `/home/models/bvlc_reference_caffenet/` 
 4. Link the folder of project relief_rcnn to `/home/relief_rcnn`
 5. run `./voc07_test.sh`
+
+### Docker images and dataset
+Download the docker image from the link below:
+
+link: https://pan.baidu.com/s/1Vz1m1WEWcNdIBhPOwW8ksQ 
+
+password: adfc
+
+Unzip the the files to get the r2cnn.tar, and then use docker import to load the r2cnn.tar.
+Note that the user need to modify several things which are the step 1~5 shown above. 
